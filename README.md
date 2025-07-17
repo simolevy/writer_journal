@@ -2,8 +2,10 @@
 full stack personal journal app.
 
 Stack:
+
 Frontend: React, HTML/CSS
-Backend: Spring Boot + H2 + JPA (Hibernate)
+
+Backend: Spring Boot + JPA + Postgresql
 
 Features:
 1. Log in
