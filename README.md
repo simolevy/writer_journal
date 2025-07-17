@@ -1,6 +1,10 @@
 # writer_journal
 full stack personal journal app.
 
+Stack:
+Frontend: React, HTML/CSS
+Backend: Springboot Java
+
 Features:
 1. Log in
 2. Submit Journal Entries
