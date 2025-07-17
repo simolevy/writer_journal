@@ -1,12 +1,13 @@
-import logo from './logo.svg';
-import EntryForm from './components/EntryForm';
+import JournalPage from './components/JournalPage';
 import './App.css';
+import { Header } from './Header';
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <h1>My Journal</h1>
-      <EntryForm />
+      <JournalPage />
     </div>
   );
 }
