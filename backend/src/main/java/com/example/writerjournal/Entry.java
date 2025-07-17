@@ -1,11 +1,15 @@
 package com.example.writerjournal;
-
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
+import jakarta.persistence.*;
 
 
 
+@Entity
+@Table(name = "entry") // ← this ensures correct table name
     public class Entry {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
     private String subject;
     private String body;
