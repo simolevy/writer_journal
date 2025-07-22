@@ -1,0 +1,21 @@
+.generate button {
+    align-self: flex-start;
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #b8b0a3; /* warm neutral tone */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.generate button:hover {
+  background-color: #9c9485;
+}
+
+.generate .generated-prompt {
+  margin-top: 0.8rem;
+  font-style: italic;
+  color: #444;
+}
