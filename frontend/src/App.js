@@ -1,16 +1,27 @@
-import JournalPage from './components/JournalPage';
 import './App.css';
-import { Header } from './Header';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Header } from './components/Header';
+import Home from './pages/Home';
+import JournalPage from './components/JournalPage';
 import { Generate } from './components/Generate';
+import About from './pages/About';
+import Write from './pages/Write';
+import Journal from './pages/Journal';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <h1>Journal</h1>
-      <Generate/>
-      <JournalPage />
-    </div>
+    <Router>
+        <div className="App">
+        <Header />
+        <Routes>
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/write" element={<Write />} />
+          <Route path="/journal" element={<Journal />} />
+        </Routes>  
+      </div>
+    </Router>
+    
   );
 }
 

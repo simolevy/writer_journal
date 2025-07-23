@@ -1,26 +1,15 @@
-import React, { useState, useEffect } from "react";
+// src/components/JournalPage.jsx
+import React from "react";
 import EntryForm from "./EntryForm";
 import EntriesList from "./EntriesList";
+import { useJournalEntries } from "../hooks/useJournalEntries";
 
 function JournalPage() {
-  const [entries, setEntries] = useState([]);
-
-  // Fetch entries on initial load
-  useEffect(() => {
-    fetch("http://localhost:8080/entries")
-      .then((res) => res.json())
-      .then((data) => setEntries(data))
-      .catch((err) => console.error("Failed to fetch entries", err));
-  }, []);
-
-  // Add new entry to local state after submitting
-  const handleAddEntry = (newEntry) => {
-    setEntries((prevEntries) => [...prevEntries, newEntry]);
-  };
+  const { entries, addEntry } = useJournalEntries();
 
   return (
     <div className="journal-page">
-      <EntryForm onAddEntry={handleAddEntry} />
+      <EntryForm onAddEntry={addEntry} />
       <EntriesList entries={entries} />
     </div>
   );

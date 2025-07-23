@@ -1,5 +1,5 @@
 import React from 'react';
-import './EntriesList.css'; // optional, if you want custom styling
+import './EntriesList.css';
 
 function EntriesList({ entries }) {
   if (!entries.length) {
