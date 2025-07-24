@@ -1,4 +1,8 @@
 # writer_journal
+
+![msedge_a0RY056lag](https://github.com/user-attachments/assets/ab27c1ae-d4b3-4bd5-bd58-995749e79f0d)
+
+
 full stack personal journal app.
 
 Stack:
@@ -16,5 +20,3 @@ Current Features:
 Future Features:
 1. Log in
 2. Delete Entries
-
-![msedge_UZoTLNDc5i](https://github.com/user-attachments/assets/7fdeb609-872c-4710-991e-11d76f8a63f0)
