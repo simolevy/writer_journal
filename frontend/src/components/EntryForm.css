@@ -1,22 +1,21 @@
 .entry-form {
-  max-width: 600px;
+  max-width: 800px;
   margin: 3rem auto;
-  padding: 2rem;
+  padding: 1rem;
   background-color: #fdfaf6; /* soft off-white */
-  border: 1px solid #e6e2dd;
+  border: 1px solid #fdfaf6;
   border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Patrick Hand';
 }
 
 .entry-form label {
   display: flex;
   flex-direction: column;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: #333;
 }
 
@@ -24,11 +23,11 @@
 .entry-form textarea {
   margin-top: 0.3rem;
   padding: 0.75rem 1rem;
-  border: 1px solid #d8d3cc;
+  border: 1px solid #dbd4ca;
   border-radius: 8px;
   font-size: 1rem;
-  background-color: #f9f7f3;
-  font-family: 'Noto Sans JP', sans-serif;
+  background-color: #ffffff;
+  font-family: sans-serif;
   transition: border 0.2s ease;
 }
 
@@ -39,17 +38,18 @@
 }
 
 .entry-form textarea {
-  min-height: 120px;
+  min-height: 200px;
   resize: vertical;
 }
 
 .entry-form button {
   align-self: flex-start;
-  padding: 0.6rem 1.5rem;
+  padding: 0.6rem 2.5rem;
   font-size: 1rem;
   border: none;
-  border-radius: 6px;
+  border-radius: 9px;
   background-color: #b8b0a3; /* warm neutral tone */
+  font-family: 'Patrick Hand';
   color: white;
   cursor: pointer;
   transition: background-color 0.2s ease;

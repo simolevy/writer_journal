@@ -5,8 +5,8 @@ function About(){
 
     return (
         <div>
-            <h1>About Journal</h1>
-            <p>Journal is an app that allows you to journal.</p>
+            <h1>About Jotter</h1>
+            <p>Jotter is an app that allows you to journal freely.</p>
         </div>
     );
 

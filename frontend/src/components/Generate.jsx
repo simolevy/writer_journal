@@ -15,7 +15,7 @@ const handleGenerate = async () => {
     }
 
     const response = await window.puter.ai.chat(
-      "Give me a five word creative writing prompt for a journal entry.",
+      "Give me a first person seven word creative writing prompt.",
       { model: "gpt-4.1-nano" }
     );
 

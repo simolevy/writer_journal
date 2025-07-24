@@ -9,7 +9,7 @@ function Write() {
 
   return (
     <div>
-      <h1>Start Writing!</h1>
+      <h1>New Entry</h1>
       <Generate />
       <EntryForm onAddEntry={addEntry} />
     </div>

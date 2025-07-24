@@ -1,17 +1,18 @@
 .generate button {
-    align-self: flex-start;
-    padding: 0.6rem 1.5rem;
-    font-size: 1rem;
-    border: none;
-    border-radius: 6px;
-    background-color: #b8b0a3; /* warm neutral tone */
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
+  align-self: flex-start;
+  padding: 0.6rem 2.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 9px;
+  background-color: #b8b0a3; /* warm neutral tone */
+  font-family: 'Patrick Hand';
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
 .generate button:hover {
-  background-color: #9c9485;
+    background-color: #9c9485;
 }
 
 .generate .generated-prompt {

@@ -1,0 +1,48 @@
+/* Full-page center layout */
+
+
+.home-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  background-color: #fdfaf6;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Text block */
+.home-text {
+  font-family: 'Patrick Hand', cursive;
+  color: #161ea6;
+  text-shadow: 1px 1px 1px #0b0f5a;
+  max-width: 600px;
+}
+
+.home-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.home-text p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+/* Call to Action Button */
+.cta-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #161ea6;
+  color: #fdfaf6;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.cta-button:hover {
+  background-color: #3c45c7;
+  color: white;
+}

@@ -1,41 +1,51 @@
 .main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
   background-color: #fdfaf6;
-  padding: 1.25rem 0;
-  border-bottom: 1px solid #eae4dc;
-  font-family: 'Noto Serif JP', serif;
+  font-family: 'Patrick Hand', cursive;
+  font-size: large;
+  position: relative;
+}
+
+h1 {
+    color: #161ea6;
+      font-size: 2rem;
+
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo img {
+  height: 250px; /* tweak to size you want */
+  width: auto;
+  display: block;
+}
+
+.nav-left {
+  width: 100px; /* just balances space with the nav list */
 }
 
 .nav-list {
-  list-style: none;
   display: flex;
-  justify-content: center;
-  gap: 3rem;
+  list-style: none;
+  gap: 2.5rem;
   margin: 0;
   padding: 0;
 }
 
 .nav-list li a {
   text-decoration: none;
-  color: #3b3b3b;
-  font-size: 1rem;
-  position: relative;
+  color: #161ea6;
+  font-size: 2rem;
   transition: color 0.3s ease;
 }
 
 .nav-list li a:hover {
   color: #8c6239;
-}
-
-.nav-list li a::after {
-  content: '';
-  display: block;
-  height: 1px;
-  background-color: #8c6239;
-  width: 0;
-  transition: width 0.3s ease;
-  margin-top: 4px;
-}
-
-.nav-list li a:hover::after {
-  width: 100%;
 }
